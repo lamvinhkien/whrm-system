@@ -1,0 +1,84 @@
+.Login {
+    .left {
+        .left-child {
+            margin-top: 85px;
+
+            .description {
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                font-size: 20px;
+                text-shadow: 2px 2px #d5d5d57e;
+            }
+        }
+
+    }
+
+    .right {
+        .right-child {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 5px rgba(150, 150, 150, 0.54);
+            padding: 15px 18px 20px 18px;
+
+            .title-form-login {
+                color: #0CBDDF;
+            }
+
+            .login-btn {
+                background-color: #0CBDDF;
+                border: none;
+                font-size: 19px;
+                color: #fff;
+                font-weight: 650;
+
+                &:hover {
+                    background-color: #0db1d2;
+                }
+            }
+
+            .create-new-account {
+                border: none;
+                background-color: #57c940;
+                color: #fff;
+                font-weight: 650;
+                font-size: 16px;
+
+                &:hover {
+                    background-color: #5fce49;
+                }
+            }
+
+            .forget {
+                span {
+                    cursor: pointer;
+                    color: #1ca8ce;
+                    font-size: 15px;
+                    font-weight: 500;
+
+                    &:hover {
+                        color: #168cac;
+                    }
+                }
+            }
+
+            .google-button {
+                background-color: #DC4A38;
+                color: whitesmoke;
+                font-weight: 650;
+
+                &:hover {
+                    background-color: #d04d3c;
+                }
+            }
+
+            .facebook-button {
+                background-color: #1877F2;
+                color: whitesmoke;
+                font-weight: 650;
+
+                &:hover {
+                    background-color: #1f73e1;
+                }
+            }
+        }
+    }
+}
