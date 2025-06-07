@@ -7,9 +7,9 @@ import initTaskRoutes from "./routes/task";
 import bodyParser from "body-parser";
 import cookieParser from 'cookie-parser';
 import configCors from "./config/cors";
-import configGoogleLogin from "./controller/socialMediaLogin/GoogleLogin";
-import configFacebookLogin from "./controller/socialMediaLogin/FacebookLogin";
-import configConnectSessionSql from "./config/configConnectSessionSql";
+// import configGoogleLogin from "./controller/socialMediaLogin/GoogleLogin";
+// import configFacebookLogin from "./controller/socialMediaLogin/FacebookLogin";
+// import configConnectSessionSql from "./config/configConnectSessionSql";
 import 'dotenv/config';
 
 const app = express();
@@ -29,13 +29,13 @@ app.use(cookieParser())
 configCors(app);
 
 // Config connect session Sql
-configConnectSessionSql(app)
+// configConnectSessionSql(app)
 
 // config Google login
-configGoogleLogin()
+// configGoogleLogin()
 
 // config Facebook login
-configFacebookLogin()
+// configFacebookLogin()
 
 // init routes
 initApiRoutes(app);

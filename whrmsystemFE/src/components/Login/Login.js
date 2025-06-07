@@ -152,7 +152,7 @@ const Login = (props) => {
                             <button className="btn create-new-account w-100" onClick={() => handleCreateNewAccount()}>Create New Account</button>
                         </div>
 
-                        <hr />
+                        {/* <hr />
 
                         <span className="text-center">Or login with</span>
                         <div className="row">
@@ -166,7 +166,7 @@ const Login = (props) => {
                                     <i className="fa fa-facebook-f"></i> Facebook
                                 </button>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

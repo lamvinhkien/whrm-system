@@ -119,7 +119,7 @@ const handleLogout = (req, res) => {
         res.clearCookie("at_user");
         res.clearCookie("rt_user");
         res.clearCookie("connect.sid");
-        req.session.destroy();
+        // req.session.destroy();
 
         return res.json({
             EM: "Remove cookies successfully!",

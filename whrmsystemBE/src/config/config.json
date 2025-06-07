@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "kien170025436069",
+    "password": "123123",
     "database": "jwt",
     "host": "127.0.0.1",
     "dialect": "mysql",
